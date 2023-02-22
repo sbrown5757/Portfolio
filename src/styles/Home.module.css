@@ -5,7 +5,20 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
-  background: linear-gradient(180deg, black,#702963)
+  background: linear-gradient(180deg, #702963, black)
+}
+
+.headerBox {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 

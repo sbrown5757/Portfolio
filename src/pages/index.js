@@ -12,7 +12,7 @@ export default function Home() {
   let j = 0;
   let intro = "Hello, I'm Sean"
   let title = "A Fullstack Web Developer"
-  let speed = 100
+  let speed = 150
  const typeWriter = function () {
     if(i < intro.length) {
       document.getElementById('intro').innerHTML += intro.charAt(i);
@@ -41,9 +41,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <div className={styles.headerBox}>
        <div  className={styles.header}>
         <h1 id='intro'></h1>
         <h2 id='title'></h2>
+        </div>
        </div>
       </main>
     </>

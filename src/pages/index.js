@@ -5,14 +5,14 @@ import styles from '@/styles/Home.module.css'
 import {useState, useEffect} from 'react';
 
 const inter = Inter({ subsets: ['latin'] })
-
 export default function Home() {
-  let [test, setTest] = useState('not fired')
+  const [loaded, setLoaded] = useState(false)
   let i = 0;
   let j = 0;
   let intro = "Hello, I'm Sean"
   let title = "A Fullstack Web Developer"
   let speed = 150
+  let visible = styles.visible
  const typeWriter = function () {
     if(i < intro.length) {
       document.getElementById('intro').innerHTML += intro.charAt(i);
@@ -25,11 +25,14 @@ export default function Home() {
       j++
       setTimeout(typeWriter, speed)
     }
+    if(i === intro.length && j === title.length) {
+      document.getElementById('learn-more').className = visible
+      setLoaded(true)
+    }
   }
 
     useEffect(() => {
       typeWriter()
-      setTest('fired')
     }, [])
   
   return (
@@ -41,10 +44,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <img className={styles.backgroundImg} src='/jake-hills-z0gDv24X3uQ-unsplash.jpg' />
         <div className={styles.headerBox}>
        <div  className={styles.header}>
+         <img className={styles.meImg} src='https://www.iconpacks.net/icons/2/free-user-icon-3296-thumb.png' width={100} height={100} />
         <h1 id='intro'></h1>
         <h2 id='title'></h2>
+        <button id='learn-more' className={styles.hidden} disabled={!loaded ? true: false} onClick={() => console.log('CLICKED')}>Learn more</button>
         </div>
        </div>
       </main>

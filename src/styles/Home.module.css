@@ -1,7 +1,4 @@
 
-.main {
-  background-color: aqua;
-}
 
 .backgroundImg {
   position: absolute;
@@ -21,7 +18,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15rem;
+  margin-top: 10%;
   gap: 1rem;
   z-index: 2;
 }
@@ -31,7 +28,12 @@
 }
 
 #learn-more{
-  transition: opacity 3s
+  transition: opacity 3s;
+  
+}
+
+#arrow {
+  font-size: 35px;
 }
 
 .hidden {
@@ -40,19 +42,26 @@
 }
 
 .visible {
+  position: absolute;
+  top: 85%;
+  display: flex;
+  justify-content: center;
   z-index: 2;
   transition: opacity 1s, background-color .3s, box-shadow .3s;
   opacity: 100;
-  width: 100%;
-  padding: .5rem;
-  border-radius: 20px;
-  background-color: #3D4750;
-  font-size: 14px;
-  border: none;
+  padding: 1rem;
+  border-radius: 50%;
+  border: 3px solid #E8E8E8;
+  background-color: transparent;
+  font-size: 20px;
   cursor: pointer;
 }
 
 .visible:hover {
   background-color: #2f373f;
   box-shadow: 0px 12px 12px rgba(0,0,0,0.5);
+}
+
+.mainContent {
+  min-height: 100vh;
 }

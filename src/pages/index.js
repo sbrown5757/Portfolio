@@ -56,12 +56,16 @@ export default function Home() {
           <div>
             <ol className={styles.navLinksList}>
               <li className={styles.navLinksItem}>
-                <Link href="/#main">About me</Link>
+                <Link href="/#main" scroll={false}>
+                  About me
+                </Link>
               </li>
               <li className={styles.navLinksItem}>
-                <Link href="/">Projects</Link>
+                <Link href="/" scroll={false}>
+                  Projects
+                </Link>
               </li>
-              <li className={styles.navLinksItem}>
+              <li className={styles.navLinksItem} scroll={false}>
                 <Link href="/">Contact</Link>
               </li>
               <li className={styles.resumeBtnItem}>

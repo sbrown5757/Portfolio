@@ -35,13 +35,18 @@
   list-style: circle;
 }
 
-.navLinksItem {
+.navLinksItem:after {
+  display: block;
   border-bottom: 2px solid transparent;
-  transition: 0.4s;
+  content: "";
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
 }
 
-.navLinksItem:hover {
-  border-bottom: 2px solid #e8e8e8;
+.navLinksItem:hover:after {
+  transform: scaleX(1);
+  border-image: linear-gradient(to right, #e8e8e8, #6b3dcc) 5;
+  transform-origin: 0% 50%;
 }
 
 .resumeBtnItem {
@@ -51,7 +56,7 @@
 .resumeBtn {
   padding: 0.75rem 1rem;
   cursor: pointer;
-  background: transparent;
+  background: #6b3dcc;
   border-radius: 8px;
   border: 2px solid #e8e8e8;
   font-size: 16px;
@@ -59,7 +64,7 @@
 }
 
 .resumeBtn:hover {
-  background-color: #2f373f;
+  background-color: transparent;
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.5);
 }
 
@@ -109,13 +114,13 @@
   padding: 1rem;
   border-radius: 50%;
   border: 3px solid #e8e8e8;
-  background-color: transparent;
+  background-color: #6b3dcc;
   font-size: 20px;
   cursor: pointer;
 }
 
 .visible:hover {
-  background-color: #2f373f;
+  background-color: transparent;
   box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.5);
 }
 

@@ -1,5 +1,5 @@
 .main {
-  min-height: 100vh;
+  background-color: #161b22;
 }
 
 .navigation {
@@ -125,6 +125,6 @@
 
 .mainContent {
   min-height: 100vh;
-  background-color: black;
+  background-color: #161b22;
   z-index: 3;
 }

@@ -29,7 +29,7 @@ const Particle = () => {
         fullScreen: { enable: false },
         style: {
           position: "absolute",
-          height: "100%",
+          height: "109%",
           top: "0",
           left: "0",
         },

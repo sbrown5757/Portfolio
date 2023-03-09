@@ -38,6 +38,7 @@ export default function Home() {
 
   useEffect(() => {
     typeWriter();
+    window.scrollTo(0, 0);
   }, []);
 
   return (

@@ -35,7 +35,7 @@ const Particle = () => {
         },
         background: {
           color: {
-            value: "black",
+            value: "#161b22",
           },
         },
         fpsLimit: 120,
@@ -47,7 +47,7 @@ const Particle = () => {
             },
             onHover: {
               enable: true,
-              mode: "repulse",
+              mode: "grab",
             },
             resize: true,
           },
@@ -56,13 +56,13 @@ const Particle = () => {
               quantity: 5,
             },
             repulse: {
-              distance: 200,
+              distance: 100,
               duration: 0.4,
             },
-            attract: {
-              distance: 200,
-              factor: 5,
-            },
+            // attract: {
+            //   distance: 100,
+            //   factor: 3,
+            // },
           },
         },
         particles: {
@@ -83,27 +83,27 @@ const Particle = () => {
             direction: "none",
             enable: true,
             outModes: {
-              default: "bounce",
+              default: "out",
             },
-            random: false,
+            random: true,
             speed: 3,
-            straight: false,
+            straight: true,
           },
           number: {
             density: {
               enable: true,
               area: 800,
             },
-            value: 80,
+            value: 120,
           },
           opacity: {
-            value: 0.5,
+            value: 1,
           },
           shape: {
-            type: "square",
+            type: "circle",
           },
           size: {
-            value: { min: 1, max: 5 },
+            value: { min: 0.5, max: 1 },
           },
         },
         detectRetina: true,

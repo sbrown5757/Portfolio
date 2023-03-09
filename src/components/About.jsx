@@ -15,7 +15,7 @@ const About = () => {
             interest for web development sparked after taking an HTML and CSS
             course on Udemy. From there I dabbled with learning JavaScript with
             resources like Eloquent JavaScript and freeCodeCamp until I finally
-            decided to enroll in Fullstack Academy's Immersive Fulltime Web
+            decided to enroll in Fullstack Academy&apos;s Immersive Fulltime Web
             Devlopment Bootcamp which I graduated from in February of 2023.
           </p>
           <p className={styles.aboutText}>

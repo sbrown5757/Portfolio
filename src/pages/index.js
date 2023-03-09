@@ -53,7 +53,9 @@ export default function Home() {
         <div className={styles.hero}>
           <Particle />
           <nav id="navigation" className={styles.hiddenNav}>
-            <div>Logo</div>
+            <div>
+              <img src="/favicon-32x32.png" width={48} height={48} />
+            </div>
             <div>
               <ol className={styles.navLinksList}>
                 <li className={styles.navLinksItem}>

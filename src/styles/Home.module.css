@@ -11,7 +11,7 @@
   z-index: 2;
   display: flex;
   justify-content: space-between;
-  padding: 2rem 3rem 2rem 3rem;
+  padding: 2rem 6rem 2rem 6rem;
 }
 
 .hiddenNav {
@@ -22,7 +22,7 @@
   z-index: -1;
   display: flex;
   justify-content: space-between;
-  padding: 2rem 3rem 2rem 3rem;
+  padding: 2rem 6rem 2rem 6rem;
 }
 
 .navLinksList {
@@ -126,5 +126,6 @@
 .mainContent {
   min-height: 100vh;
   background-color: #161b22;
+  border-top: 1px solid #e8e8e8;
   z-index: 3;
 }

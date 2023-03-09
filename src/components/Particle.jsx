@@ -59,10 +59,6 @@ const Particle = () => {
               distance: 100,
               duration: 0.4,
             },
-            // attract: {
-            //   distance: 100,
-            //   factor: 3,
-            // },
           },
         },
         particles: {

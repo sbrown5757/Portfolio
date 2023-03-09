@@ -5,6 +5,8 @@ import styles from "@/styles/Home.module.css";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
+import Particle from "@/components/Particle";
+
 const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   const [loaded, setLoaded] = useState(false);
@@ -46,57 +48,56 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        {/* <img
-          className={styles.backgroundImg}
-          src="/jake-hills-z0gDv24X3uQ-unsplash.jpg"
-        /> */}
-        <nav id="navigation" className={styles.hiddenNav}>
-          <div>Logo</div>
-          <div>
-            <ol className={styles.navLinksList}>
-              <li className={styles.navLinksItem}>
-                <Link href="/#main" scroll={false}>
-                  About me
-                </Link>
-              </li>
-              <li className={styles.navLinksItem}>
-                <Link href="/" scroll={false}>
-                  Projects
-                </Link>
-              </li>
-              <li className={styles.navLinksItem} scroll={false}>
-                <Link href="/">Contact</Link>
-              </li>
-              <li className={styles.resumeBtnItem}>
-                <Link href="/Sean Brown_Resume (2).pdf" target="_blank">
-                  <button className={styles.resumeBtn}>Resume</button>
-                </Link>
-              </li>
-            </ol>
+      <main>
+        <div className={styles.hero}>
+          <Particle />
+          <nav id="navigation" className={styles.hiddenNav}>
+            <div>Logo</div>
+            <div>
+              <ol className={styles.navLinksList}>
+                <li className={styles.navLinksItem}>
+                  <Link href="/#main" scroll={false}>
+                    About me
+                  </Link>
+                </li>
+                <li className={styles.navLinksItem}>
+                  <Link href="/" scroll={false}>
+                    Projects
+                  </Link>
+                </li>
+                <li className={styles.navLinksItem} scroll={false}>
+                  <Link href="/">Contact</Link>
+                </li>
+                <li className={styles.resumeBtnItem}>
+                  <Link href="/Sean Brown_Resume (2).pdf" target="_blank">
+                    <button className={styles.resumeBtn}>Resume</button>
+                  </Link>
+                </li>
+              </ol>
+            </div>
+          </nav>
+          <div className={styles.headerBox}>
+            <div className={styles.header}>
+              <Image
+                className={styles.meImg}
+                src="https://www.iconpacks.net/icons/2/free-user-icon-3296-thumb.png"
+                width={100}
+                height={100}
+              />
+              <h1 id="intro"></h1>
+              <h2 id="title"></h2>
+            </div>
+            <button
+              id="learn-more"
+              className={styles.hidden}
+              disabled={!loaded ? true : false}
+              onClick={() => document.getElementById("main").scrollIntoView()}
+            >
+              <span className="material-symbols-outlined" id={styles.arrow}>
+                south
+              </span>
+            </button>
           </div>
-        </nav>
-        <div className={styles.headerBox}>
-          <div className={styles.header}>
-            <Image
-              className={styles.meImg}
-              src="https://www.iconpacks.net/icons/2/free-user-icon-3296-thumb.png"
-              width={100}
-              height={100}
-            />
-            <h1 id="intro"></h1>
-            <h2 id="title"></h2>
-          </div>
-          <button
-            id="learn-more"
-            className={styles.hidden}
-            disabled={!loaded ? true : false}
-            onClick={() => document.getElementById("main").scrollIntoView()}
-          >
-            <span className="material-symbols-outlined" id={styles.arrow}>
-              south
-            </span>
-          </button>
         </div>
         <div id="main" className={styles.mainContent}>
           <h2>Content</h2>

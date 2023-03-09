@@ -11,7 +11,7 @@ const About = () => {
             </ul>
           </h2>
           <p className={styles.aboutText}>
-            Hi! I'm Sean Brown and I like to make things for the web. My
+            Hi! I&apos;m Sean Brown and I like to make things for the web. My
             interest for web development sparked after taking an HTML and CSS
             course on Udemy. From there I dabbled with learning JavaScript with
             resources like Eloquent JavaScript and freeCodeCamp until I finally
@@ -19,8 +19,8 @@ const About = () => {
             Devlopment Bootcamp which I graduated from in February of 2023.
           </p>
           <p className={styles.aboutText}>
-            As of right now, I'm looking for my first job in the industry while
-            also keeping myself busy and learning by creating projects for
+            As of right now, I&apos;m looking for my first job in the industry
+            while also keeping myself busy and learning by creating projects for
             myself and family.
           </p>
         </div>

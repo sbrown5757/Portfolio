@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 
 import Particle from "@/components/Particle";
+import About from "@/components/About";
 
 const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
@@ -81,12 +82,6 @@ export default function Home() {
           </nav>
           <div className={styles.headerBox}>
             <div className={styles.header}>
-              <Image
-                className={styles.meImg}
-                src="https://www.iconpacks.net/icons/2/free-user-icon-3296-thumb.png"
-                width={100}
-                height={100}
-              />
               <h1 id="intro"></h1>
               <h2 id="title"></h2>
             </div>
@@ -94,7 +89,7 @@ export default function Home() {
               id="learn-more"
               className={styles.hidden}
               disabled={!loaded ? true : false}
-              onClick={() => document.getElementById("main").scrollIntoView()}
+              onClick={() => document.getElementById("about").scrollIntoView()}
             >
               <span className="material-symbols-outlined" id={styles.arrow}>
                 south
@@ -102,10 +97,8 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div id="main" className={styles.mainContent}>
-          <h2>Content</h2>
-          <h3>Content</h3>
-          <h4>Content</h4>
+        <div id="about" className={styles.about}>
+          <About />
         </div>
       </main>
     </>

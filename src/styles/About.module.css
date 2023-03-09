@@ -1,0 +1,23 @@
+.aboutSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentBox {
+  margin-top: 6rem;
+  max-width: 40%;
+  display: flex;
+}
+
+.sectionTitle {
+  list-style: circle;
+}
+
+.aboutText {
+  margin-top: 2rem;
+}
+
+.technicalSkillsContainer {
+  margin-top: 4rem;
+}

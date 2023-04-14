@@ -123,11 +123,19 @@
   box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.5);
 }
 
-.about {
+.main {
   min-height: 100vh;
   background-color: #161b22;
+}
+
+.about {
   border-top: 1px solid #e8e8e8;
   z-index: 3;
+  display: flex;
+  justify-content: center;
+}
+
+.technical {
   display: flex;
   justify-content: center;
 }

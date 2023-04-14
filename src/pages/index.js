@@ -7,6 +7,7 @@ import Link from "next/link";
 
 import Particle from "@/components/Particle";
 import About from "@/components/About";
+import Technical from "@/components/Technical";
 
 const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
@@ -89,7 +90,7 @@ export default function Home() {
               id="learn-more"
               className={styles.hidden}
               disabled={!loaded ? true : false}
-              onClick={() => document.getElementById("about").scrollIntoView()}
+              onClick={() => document.getElementById("main").scrollIntoView()}
             >
               <span className="material-symbols-outlined" id={styles.arrow}>
                 south
@@ -97,8 +98,13 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div id="about" className={styles.about}>
-          <About />
+        <div id="main" className={styles.main}>
+          <div id="about" className={styles.about}>
+            <About />
+          </div>
+          <div id="technical" className={styles.technical}>
+            <Technical />
+          </div>
         </div>
       </main>
     </>

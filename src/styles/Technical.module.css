@@ -1,0 +1,25 @@
+.technicalSkillsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 6rem;
+  max-width: 30rem;
+}
+
+.skillIcon {
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem;
+  transition: 0.3s;
+}
+
+.skillIcon:hover {
+  transform: scale(1.3);
+}
+
+.skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 4rem;
+}

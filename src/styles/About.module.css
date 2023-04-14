@@ -6,6 +6,7 @@
 
 .contentBox {
   margin-top: 6rem;
+  margin-bottom: 6rem;
   max-width: 40%;
   display: flex;
 }
@@ -16,8 +17,4 @@
 
 .aboutText {
   margin-top: 2rem;
-}
-
-.technicalSkillsContainer {
-  margin-top: 4rem;
 }

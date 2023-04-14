@@ -11,6 +11,7 @@
   display: flex;
   align-items: center;
   gap: 2rem;
+  margin-top: 4rem;
 }
 
 .projectImage {
@@ -38,6 +39,7 @@
   gap: 0.2rem;
   border: none;
   border-radius: 6px;
+  transition: 0.3s;
 }
 
 .projectButtons:hover {
@@ -48,6 +50,17 @@
   background-color: #6b3dcc;
 }
 
-.projectCode {
+#liveProject:hover {
+  background-color: #4c25a2;
+}
+
+#projectCode {
   background-color: transparent;
+  border: 1px solid white;
+}
+
+#projectCode:hover {
+  background-color: white;
+  color: #161b22;
+  border: 1px solid #161b22;
 }

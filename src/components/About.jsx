@@ -24,12 +24,12 @@ const About = () => {
             that interest and challenge me.
           </p>
           <p className={styles.aboutText}>
-            Outside of web development, I'm a huge history nerd that loves
-            learning about the 19th and 20th century and industrialization. I'm
-            an animal lover that has two cats named Bean and Sam as well as two
-            dogs. (I prefer cats though). Other than that I love to go to the
-            gym and go for walks and I am a big fan of grand strategy video
-            games like Hearts of Iron IV and Victoria 3.
+            Outside of web development, I&apos;m a huge history nerd that loves
+            learning about the 19th and 20th century and industrialization.
+            I&apos;m an animal lover that has two cats named Bean and Sam as
+            well as two dogs. (I prefer cats though). Other than that I love to
+            go to the gym and go for walks and I am a big fan of grand strategy
+            video games like Hearts of Iron IV and Victoria 3.
           </p>
         </div>
         <div>

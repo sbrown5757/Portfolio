@@ -5,11 +5,7 @@ const About = () => {
     <div className={styles.aboutSection}>
       <div className={styles.contentBox}>
         <div className={styles.aboutTextbox}>
-          <h2>
-            <ul>
-              <li className={styles.sectionTitle}>About me</li>
-            </ul>
-          </h2>
+          <h2 className={styles.sectionTitle}>About me</h2>
           <p className={styles.aboutText}>
             Hi! I&apos;m Sean Brown and I like to make things for the web. My
             interest for web development sparked after taking an HTML and CSS

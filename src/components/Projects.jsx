@@ -14,12 +14,16 @@ const Projects = () => {
             className={styles.projectImage}
           />
           <div>
-            <div className={styles.projectTitle}>Peak Fitness</div>
+            <div className={styles.projectTitle}>
+              <h3>Peak Fitness</h3>
+            </div>
             <div className={styles.projectDesc}>
-              Worked on a team of 5 to create a fitness application that allows
-              users to input and track their workouts as well as share their
-              workouts with their friends. On top of this there is also a
-              calorie tracker and achievements.
+              <p>
+                Worked on a team of 5 to create a fitness application that
+                allows users to input and track their workouts as well as share
+                their workouts with their friends. On top of this there is also
+                a calorie tracker and achievements.
+              </p>
             </div>
             <div className={styles.projectButtonsBox}>
               <Link href="https://peakfitness.netlify.app/" target="_blank">
@@ -60,11 +64,15 @@ const Projects = () => {
             className={styles.projectImage}
           />
           <div>
-            <div className={styles.projectTitle}>Todo List</div>
+            <div className={styles.projectTitle}>
+              <h3>Todo List</h3>
+            </div>
             <div className={styles.projectDesc}>
-              A simple todo list app that lets users make an account to store
-              their tasks, mark them off as complete and delete them whenever
-              they wish.
+              <p>
+                A simple todo list app that lets users make an account to store
+                their tasks, mark them off as complete and delete them whenever
+                they wish.
+              </p>
             </div>
             <div className={styles.projectButtonsBox}>
               <Link href="https://todo-list-1g09.onrender.com/" target="_blank">

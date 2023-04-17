@@ -1,4 +1,5 @@
 import styles from "@/styles/Contact.module.css";
+import Link from "next/link";
 
 const Contact = () => {
   return (
@@ -40,9 +41,9 @@ const Contact = () => {
             </svg>
 
             <p>Github</p>
-            <a href="https://github.com/sbrown5757" target="_blank">
+            <Link href="https://github.com/sbrown5757" target="_blank">
               github.com/sbrown5757
-            </a>
+            </Link>
           </div>
         </li>
         <li className={styles.contactListItem}>
@@ -60,9 +61,12 @@ const Contact = () => {
               />
             </svg>
             <p>LinkedIn</p>
-            <a href="https://www.linkedin.com/in/seanbrown71/" target="_blank">
+            <Link
+              href="https://www.linkedin.com/in/seanbrown71/"
+              target="_blank"
+            >
               linkedin.com/in/seanbrown71/
-            </a>
+            </Link>
           </div>
         </li>
       </ul>

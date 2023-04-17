@@ -2,12 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 60%;
 }
 
 .contentBox {
   margin-top: 6rem;
   margin-bottom: 6rem;
-  max-width: 60%;
   display: flex;
   justify-content: center;
 }

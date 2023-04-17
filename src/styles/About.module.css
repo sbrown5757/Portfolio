@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 60vw;
 }
 
 .contentBox {
@@ -14,6 +13,10 @@
 
 .sectionTitle {
   text-align: center;
+}
+
+.aboutTextBox {
+  max-width: 60vw;
 }
 
 .aboutText {

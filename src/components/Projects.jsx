@@ -13,7 +13,7 @@ const Projects = () => {
             alt="peak fitness site"
             className={styles.projectImage}
           />
-          <div>
+          <div className={styles.projectDetails}>
             <div className={styles.projectTitle}>
               <h3>Peak Fitness</h3>
             </div>
@@ -63,7 +63,7 @@ const Projects = () => {
             alt="todo list website"
             className={styles.projectImage}
           />
-          <div>
+          <div className={styles.projectDetails}>
             <div className={styles.projectTitle}>
               <h3>Todo List</h3>
             </div>

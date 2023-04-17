@@ -62,7 +62,7 @@ export default function Home() {
           <Particle />
           <nav id="navigation" className={styles.hiddenNav}>
             <div>
-              <img src="/favicon-32x32.png" width={48} height={48} />
+              <img className={styles.SIcon} src="/favicon-32x32.png" />
             </div>
             <div>
               <ol className={styles.navLinksList}>

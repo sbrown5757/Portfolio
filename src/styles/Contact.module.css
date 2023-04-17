@@ -8,6 +8,7 @@
 
 .contactList {
   list-style: none;
+  flex-direction: row;
   display: flex;
   gap: 4rem;
 }
@@ -38,4 +39,13 @@
 
 .icon:hover {
   transform: rotateZ(20deg);
+}
+
+@media (max-width: 1200px) {
+  .contactContainer {
+    flex-direction: column;
+  }
+  .contactList {
+    flex-direction: column;
+  }
 }

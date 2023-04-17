@@ -14,6 +14,11 @@
   padding: 2rem 6rem 2rem 6rem;
 }
 
+.SIcon {
+  width: 3rem;
+  height: 3rem;
+}
+
 .hiddenNav {
   position: sticky;
   top: 0px;
@@ -56,7 +61,7 @@
   background: #6b3dcc;
   border-radius: 8px;
   border: 2px solid #e8e8e8;
-  font-size: 16px;
+  font-size: 1rem;
   transition: 0.3s;
 }
 
@@ -144,3 +149,48 @@
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 600px) {
+  .navLinksList {
+    list-style: none;
+    gap: 0.5rem;
+  }
+
+  .navigation {
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .resumeBtn {
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .SIcon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  #arrow {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .navLinksList {
+    list-style: none;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .navLinksList {
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .navLinksList {
+    gap: 4rem;
+  }
+} ;

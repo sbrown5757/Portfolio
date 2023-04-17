@@ -7,7 +7,7 @@
 .contentBox {
   margin-top: 6rem;
   margin-bottom: 6rem;
-  max-width: 40%;
+  max-width: 60%;
   display: flex;
 }
 
@@ -18,3 +18,9 @@
 .aboutText {
   margin-top: 2rem;
 }
+
+@media (max-width: 600px) {
+  .aboutText {
+    text-align: center;
+  }
+} ;

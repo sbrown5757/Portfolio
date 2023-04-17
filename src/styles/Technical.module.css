@@ -19,7 +19,16 @@
 
 .skillsList {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   list-style: none;
   margin-top: 4rem;
 }
+
+@media (max-width: 600px) {
+  .skillIcon {
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem;
+  }
+} ;

@@ -5,7 +5,6 @@ const Contact = () => {
   return (
     <div className={styles.contactContainer}>
       <h2 className={styles.sectionTitle}>Connect with me</h2>
-
       <ul className={styles.contactList}>
         <li className={styles.contactListItem}>
           <div className={styles.contactListItemContent}>

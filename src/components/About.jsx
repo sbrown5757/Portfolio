@@ -28,9 +28,6 @@ const About = () => {
             video games like Hearts of Iron IV and Victoria 3.
           </p>
         </div>
-        <div>
-          <h3>Image</h3>
-        </div>
       </div>
     </div>
   );

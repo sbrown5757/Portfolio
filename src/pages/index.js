@@ -9,6 +9,7 @@ import Particle from "@/components/Particle";
 import About from "@/components/About";
 import Technical from "@/components/Technical";
 import Projects from "@/components/Projects";
+import Contact from "@/components/Contact";
 
 const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
@@ -112,6 +113,9 @@ export default function Home() {
           </div>
           <div id="projects" className={styles.projects}>
             <Projects />
+          </div>
+          <div>
+            <Contact />
           </div>
         </div>
       </main>

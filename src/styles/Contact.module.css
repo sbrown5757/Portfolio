@@ -1,0 +1,41 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 10rem;
+}
+
+.contactList {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+.contactListItem {
+  display: flex;
+  justify-content: center;
+  background-color: #6b3dcc;
+  color: #e8e8e8;
+  box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.5);
+  width: 8rem;
+  padding: 5rem 10rem 5rem 10rem;
+  border-radius: 4px;
+}
+
+.contactListItemContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  width: 3rem;
+  height: 3rem;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  transform: rotateZ(20deg);
+}

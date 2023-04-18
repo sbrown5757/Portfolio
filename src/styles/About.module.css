@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 60%;
 }
 
 .contentBox {
@@ -11,6 +10,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 60rem;
+  padding: 1rem;
 }
 
 .sectionTitle {

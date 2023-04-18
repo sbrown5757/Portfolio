@@ -182,6 +182,14 @@
   .hero {
     min-height: 88vh;
   }
+
+  #intro {
+    font-size: 1rem;
+  }
+
+  #title {
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 600px) {

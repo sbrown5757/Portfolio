@@ -177,6 +177,10 @@
   #arrow {
     font-size: 1.5rem;
   }
+
+  .hero {
+    min-height: 110vh;
+  }
 }
 
 @media (min-width: 600px) {

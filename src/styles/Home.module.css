@@ -139,6 +139,7 @@
   z-index: 3;
   display: flex;
   justify-content: center;
+  margin-bottom: 6rem;
 }
 
 .technical {
@@ -179,7 +180,7 @@
   }
 
   .hero {
-    min-height: 90vh;
+    min-height: 88vh;
   }
 }
 

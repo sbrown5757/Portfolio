@@ -63,6 +63,7 @@
   border: 2px solid #e8e8e8;
   font-size: 1rem;
   transition: 0.3s;
+  color: #e8e8e8;
 }
 
 .resumeBtn:hover {
@@ -143,11 +144,13 @@
 .technical {
   display: flex;
   justify-content: center;
+  margin-bottom: 6rem;
 }
 
 .projects {
   display: flex;
   justify-content: center;
+  margin-bottom: 6rem;
 }
 
 @media (max-width: 600px) {

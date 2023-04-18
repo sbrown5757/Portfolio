@@ -4,7 +4,7 @@ const Technical = () => {
   return (
     <>
       <div className={styles.technicalSkillsContainer}>
-        <h2>Technial Skills</h2>
+        <h2 className={styles.sectionTitle}>Technial Skills</h2>
         <div>
           <ul className={styles.skillsList}>
             <li className={styles.skillIcon}>

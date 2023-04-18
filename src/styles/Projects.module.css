@@ -1,5 +1,4 @@
 .projectContainer {
-  max-width: 1200px;
   padding-bottom: 6rem;
 }
 
@@ -13,6 +12,7 @@
   align-items: center;
   gap: 2rem;
   margin-top: 4rem;
+  max-width: 1200px;
 }
 
 .projectImage {

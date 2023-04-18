@@ -5,6 +5,10 @@
   padding-bottom: 6rem;
 }
 
+.sectionTitle {
+  text-align: center;
+}
+
 .skillIcon {
   width: 5rem;
   height: 5rem;
